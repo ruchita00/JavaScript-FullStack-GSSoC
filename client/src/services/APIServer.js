@@ -1,5 +1,5 @@
 import Axios from "axios";
 
-export const GetUsers = () =>{
+export const GetUsers = () => {
   return Axios.get("/api/users");
 };
